@@ -5,7 +5,7 @@ import time
 # Constants
 NUM_LEDS = 66  # Number of LEDs in your strip
 DATA_PIN = 22  # Data line connected to GPIO 22 (Pin 29)
-DARK_THRESHOLD = 10000  # Light sensor threshold for "darkness"
+DARK_THRESHOLD = 1000  # Light sensor threshold for "darkness"
 FADE_IN_STEPS = 50
 FADE_OUT_STEPS = 50
 FADE_DELAY = 0.01
